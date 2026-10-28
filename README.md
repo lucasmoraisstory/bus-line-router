@@ -1,9 +1,9 @@
 
 # Buscador e Mapeador de Linhas Urbanas 🚍
 
-Interface interativa simulando um painel de roteamento e busca de linhas de transporte coletivo urbano. O projeto reproduz lógicas básicas de experiência do usuário (UX) aplicadas em grandes aplicativos de mobilidade urbana e planejamento de rotas.
+Criei uma interface interativa simulando um painel de roteamento e busca de linhas de transporte coletivo urbano. O projeto reproduz lógicas básicas de experiência do usuário (UX) aplicadas em grandes aplicativos de mobilidade urbana e planejamento de rotas.
 
-### 🛠️ Tecnologias Utilizadas
+###  Tecnologias Utilizadas
 - HTML5 (Componentes de busca e contêineres semânticos)
 - CSS3 (Interface limpa, moderna e paleta de cores corporativa focada em acessibilidade)
 - JavaScript (Manipulação básica do DOM para exibição dinâmica de resultados de busca)
