@@ -8,7 +8,7 @@ Criei uma interface interativa simulando um painel de roteamento e busca de linh
 - CSS3 (Interface limpa, moderna e paleta de cores corporativa focada em acessibilidade)
 - JavaScript (Manipulação básica do DOM para exibição dinâmica de resultados de busca)
 
-### 📋 Funcionalidades
+###  Funcionalidades
 - Campo de pesquisa rápida de itinerários de transporte.
 - Simulação de consulta em banco de dados local com exibição em tempo real de status da linha.
 - Feedback visual imediato baseado na interação do usuário.
