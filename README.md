@@ -1,4 +1,4 @@
-# bus-line-router
+
 # Buscador e Mapeador de Linhas Urbanas 🚍
 
 Interface interativa simulando um painel de roteamento e busca de linhas de transporte coletivo urbano. O projeto reproduz lógicas básicas de experiência do usuário (UX) aplicadas em grandes aplicativos de mobilidade urbana e planejamento de rotas.
