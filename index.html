@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Linhas - Roteador de Ônibus</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f6f9; margin: 0; padding: 20px; }
+        .card { background: white; max-width: 500px; margin: 40px auto; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        h2 { color: #1e3a8a; border-bottom: 2px solid #3b82f6; padding-bottom: 8px; }
+        .input-group { margin-bottom: 15px; }
+        input { width: 100%; padding: 10px; border: 1px solid #cbd5e1; border-radius: 4px; box-sizing: border-box; }
+        .btn { background-color: #3b82f6; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; width: 100%; font-size: 16px; }
+        .btn:hover { background-color: #2563eb; }
+        .resultado { margin-top: 15px; padding: 10px; background-color: #eff6ff; border-left: 4px solid #3b82f6; display: none; }
+    </style>
+    <script>
+        function buscarLinha() {
+            document.getElementById('res').style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <div class="card">
+        <h2>🚍 Mapeador de Linhas Urbanas</h2>
+        <p>Consulte o itinerário e o status das principais linhas de transporte.</p>
+        <div class="input-group">
+            <input type="text" id="busca" placeholder="Digite o número ou nome da linha (Ex: 8015-10)">
+        </div>
+        <button class="btn" onclick="buscarLinha()">Consultar Itinerário</button>
+        
+        <div id="res" class="resultado">
+            <strong>Linha Encontrada:</strong> Perus - Terminal Lapa<br>
+            <strong>Status atual:</strong> Operando normalmente<br>
+            <strong>Tempo estimado entre pontos:</strong> 45 minutos.
+        </div>
+    </div>
+</body>
+</html>
